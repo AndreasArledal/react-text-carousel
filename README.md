@@ -15,7 +15,8 @@ React component for swithcing between texts using a typing animation effect. Bas
 const phrases = ["An array", "of strings", "to pass the component"]; // Required
 const interval = 3000; // The time to wait before rendering the next string
 const typistProps = {} // Props that are passed to the react-typist component
+const loopPhrases = true // Set to false to stop at last phrase
 
-<TextCarousel phrases={phrases} interval={interval} typistProps={typistProps} />
+<TextCarousel phrases={phrases} interval={interval} typistProps={typistProps} loopPhrases={loopPhrases} />
 ```
 
